@@ -2,12 +2,11 @@
  * Author:		Annie Wu
  * Project:		1
  * 
- * Class:		CS 331 – Design and Analysis of Algorithms
- * Instructor:	Tannaz R.Damavandi
+ * Class:		CS 331 â€“ Design and Analysis of Algorithms
  * Date:		4 May 2018
  * 
  * Purpose:		This program contains all the user interaction for
- * 				choosing which task to run.
+ * 			choosing which task to run.
  * 
  */
 
@@ -17,9 +16,9 @@ public class Project1 {
 	
 	//string for which task to run
 	private static String whichTask = "\n\nWhich task do you want to run? Enter a number."
-												+ "\n 1. Task 1 - Sorting Algorithms"
-												+ "\n 2. Task 2 - Matrix Multiplication"
-												+ "\n 3. Exit\n";
+					+ "\n 1. Task 1 - Sorting Algorithms"
+					+ "\n 2. Task 2 - Matrix Multiplication"
+					+ "\n 3. Exit\n";
 	//string for how many elements n
 	private static String howManyElements = "\nHow many elements for the array to be sorted? ";
 	//string for size of matrix n x n
