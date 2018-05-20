@@ -2,12 +2,11 @@
  * Author:		Annie Wu
  * Project:		1
  * 
- * Class:		CS 331 – Design and Analysis of Algorithms
- * Instructor:	Tannaz R.Damavandi
+ * Class:		CS 331 â€“ Design and Analysis of Algorithms
  * Date:		4 May 2018
  * 
  * Purpose:		This program calculates the elapsed time for exchange sort, merge sort,
- * 				and quick sort to sort a list of n elements.
+ * 			and quick sort to sort a list of n elements.
  * 
  */
 
