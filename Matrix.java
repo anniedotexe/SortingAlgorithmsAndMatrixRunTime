@@ -2,13 +2,12 @@
  * Author:		Annie Wu
  * Project:		1
  * 
- * Class:		CS 331 – Design and Analysis of Algorithms
- * Instructor:	Tannaz R.Damavandi
+ * Class:		CS 331 â€“ Design and Analysis of Algorithms
  * Date:		4 May 2018
  * 
  * Purpose:		This program calculate the elapsed time for classical matrix
- * 				multiplication and Strassen's matrix multiplication with
- * 				matrix size n x n.
+ * 			multiplication and Strassen's matrix multiplication with
+ * 			matrix size n x n.
  * 
  */
 
