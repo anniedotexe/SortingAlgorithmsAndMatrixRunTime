@@ -5,12 +5,12 @@ The user can choose to:
 <li>Compare matrix multiplication runtimes</li>
 <li>Exit the program</li>
 
-## Sorting Algorithms
+### Sorting Algorithms
 The user is prompted to enter the number of elements in the array. <br>
 
 The program will print the runtimes for exchange sort, merge sort, and quick sort. <br>
 
-## Matrix Multiplication Algorithms
+### Matrix Multiplication Algorithms
 The user is prompted to enter the base of the matrix, which must be a multiple of 2. <br>
 
 The program will print the runtimes for classical matrix multiplcation and Strassen's matrix multiplication. <br>
