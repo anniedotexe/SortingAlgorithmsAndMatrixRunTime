@@ -14,6 +14,7 @@ public class Sorting {
 
 	/**
 	 * This is the function for exchange sort.
+	 * @param array array of numbers
 	 */
 	public static void exchangeSort(int array[]) {
 		//i will be from the left number to the right number in the array
@@ -35,9 +36,11 @@ public class Sorting {
 	
 	/**
 	 * This is the function for merge sort.
+	 * @param array array of numbers
+	 * @param left left index
+	 * @param right right index
 	 */
 	public static void mergeSort(int array[], int left, int right) {
-		//if left (left index) < right (right index)
 		if (left < right) {
 			//middle number is half of the sum of left and right
 			int mid = (left + right)/2;
@@ -52,6 +55,10 @@ public class Sorting {
 	
 	/**
 	 * This is the function for merging the arrays in merge sort.
+	 * @param array array of numbers
+	 * @param left left index
+	 * @param mid middle
+	 * @param right right index
 	 */
 	public static void mergeSortHelper(int array[], int left, int mid, int right) {
 		//size of left half of the array
@@ -103,6 +110,9 @@ public class Sorting {
 	
 	/**
 	 * This is the function for quick sort.
+	 * @param array array of numbers
+	 * @param start start index
+	 * @param end end index
 	 */
 	public static void quickSort(int array[], int start, int end) {
 		//if the left index is less than the right index
@@ -118,6 +128,10 @@ public class Sorting {
 	
 	/**
 	 * This is the function to partition for quick sort.
+	 * @param array array of numbers
+	 * @param start start index
+	 * @param end end index
+	 * @return sorted array
 	 */
 	public static int partition(int array[], int start, int end) {
 		//set left to start

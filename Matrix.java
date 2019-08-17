@@ -15,6 +15,7 @@ public class Matrix {
 
 	/**
 	 * This is the function for classical matrix multiplication.
+	 * @param n base for size of matrix
 	 */
 	public static void classical(int n) {
 		//create first matrix A with size n x n
@@ -58,6 +59,7 @@ public class Matrix {
 	/**
 	 * This is the function for strassen's matrix multiplication.
 	 * It initializes the matrices.
+	 * @param n base for size of matrix
 	 */
 	public static void strassen(int n) {
 		
@@ -87,7 +89,10 @@ public class Matrix {
 	
 	/**
 	 * This is the function for multiplying in 
-	 * strassen's matrix multiplication.
+	 * Strassen's matrix multiplication.
+	 * @param A matrix A
+	 * @param B matrix B
+	 * @return
 	 */
 	public static int[][] mult(int[][] A, int[][] B) {
 		//set size of matrix to length of A
@@ -205,6 +210,9 @@ public class Matrix {
 	/**
 	 * This is the function to add two matrices in 
 	 * strassen's matrix multiplication.
+	 * @param A matrix A
+	 * @param B matrix B
+	 * @return sum of the matrices
 	 */
 	public static int[][] add(int[][] A, int[][] B) {
 		//size n x n is the length of matrix A
@@ -226,6 +234,9 @@ public class Matrix {
 	/**
 	 * This is the function to subtract two matrices in 
 	 * strassen's matrix multiplication.
+	 * @param A matrix A
+	 * @param B matrix B
+	 * @return differences of the matrices
 	 */
 	public static int[][] subtract(int[][] A, int[][] B) {
 		//size n x n is the length of matrix A

@@ -19,6 +19,7 @@ public class Project1 {
 					+ "\n 1. Task 1 - Sorting Algorithms"
 					+ "\n 2. Task 2 - Matrix Multiplication"
 					+ "\n 3. Exit\n";
+
 	//string for how many elements n
 	private static String howManyElements = "\nHow many elements for the array to be sorted? ";
 	//string for size of matrix n x n
@@ -56,10 +57,7 @@ public class Project1 {
 			int task = kb.nextInt();
 			//switch case for which task to run
 			switch (task) {
-				/*
-				 * task 1 - sorting algorithms
-				 */
-				case 1:	
+				case 1:	// sorting algorithms
 					//how many n elements for the array
 					System.out.print(howManyElements);
 					//next integer will be n elements
@@ -136,11 +134,8 @@ public class Project1 {
 						System.out.printf(timeSort + milli, "quick sort", n, totalTime);
 					}
 					break;
-	
-				/*
-				 * task 2 - matrix multiplication
-				 */
-				case 2:
+
+				case 2: // matrix multiplication
 					//set start time
 					startTime = 0;
 					//set total time
